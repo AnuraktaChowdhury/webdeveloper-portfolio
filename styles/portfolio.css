@@ -13,12 +13,20 @@
      color: white;
      font-size: 20px;
      font-weight: 700;
+     padding: 15px 35px;
+     /* hight width */
+
 
  }
 
  nav {
      display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 200px;
  }
+
+
 
  .nav-title {
      color: #181818;
@@ -29,6 +37,8 @@
 
  nav>ul {
      display: flex;
+     align-items: center;
+     /*portfolio ar blog re same line a anar jonno */
  }
 
  nav li {
@@ -41,4 +51,19 @@
      /*underline soranor jonno    */
      color: #474747;
 
+ }
+
+ /* haeder related styles */
+ .header {
+     background-color: #FFF8F3;
+ }
+
+ .banner {
+     padding: 30px 30px 30px 150px;
+     display: flex;
+     align-items: center;
+ }
+
+ .banner .profile-pic {
+     width: 500px;
  }
